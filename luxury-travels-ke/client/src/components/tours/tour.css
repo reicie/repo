@@ -1,0 +1,24 @@
+.tour {
+    display: block;
+    text-align: center;
+}
+.travel-ideas img {
+    width: 100%;
+    height: 100%;
+}
+.tour:hover {
+    transform: scale(1.05);
+    transition: 0.3s; 
+}
+.tour hr {
+    margin: 1.5rem;
+}
+.price {
+    color: var(--primary-light);
+}
+.tour .container {
+    display: block;
+}
+
+
+

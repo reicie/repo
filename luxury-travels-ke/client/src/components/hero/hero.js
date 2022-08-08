@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.css';
-import Video from '../../assets/wildbeast-migration.mp4';
+import Video from '../../assets/lion.mp4';
 import {AiOutlineSearch} from 'react-icons/ai';
 
 function Hero() {
