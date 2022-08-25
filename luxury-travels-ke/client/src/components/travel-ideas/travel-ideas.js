@@ -8,19 +8,19 @@ import Balloon from '../../assets/images/Maasai-Mara-Balloon.jpg';
 import Nakuru from '../../assets/images/Nakuru.jpg';
 import QuadBiking from '../../assets/images/Quad-Biking.jpg';
 
-import Tour from '../tours/tour';
+import Tour from '../helper-components/tours/tour';
 
 
 function TravelIdeas() {
     return (
-        <div className="travel-ideas">
+        <div name="travels" className="travel-ideas">
             <h2>Our Most Popular Luxury Trip Packages</h2>
             <div className="container">
                 {/* <div className="left"> */}
                     {/* Ultimate Kenyan Safari */}
                     <Tour bgImg={Balloon} title='The Ultimate Kenyan Experience' 
                         price='PRICES START FROM $12000 PP' notes='Experience all that Kenya has to offer including Game drives, Adrenaline inducing adventure in the wild, Relaxation at the Kenyan coast'
-                        link='EXPLORE THIS TRIP'
+                        link='EXPLORE THIS TRIP' path="/ultimate-kenyan-trip"
                     />
                     {/* The Kenyan Honeymoon/Anniversary Experience */}
                     <Tour bgImg={Couple}

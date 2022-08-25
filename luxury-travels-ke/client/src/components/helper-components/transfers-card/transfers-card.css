@@ -1,0 +1,18 @@
+.transfers-card{
+    width: 100%;
+    margin: 1rem 0rem;
+}
+.transfers-card .header-section{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.transfers-card .content {
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+.transfers-card .arrow-icon {
+    color: var(--primary-tan);
+    font-size: 2rem;
+}

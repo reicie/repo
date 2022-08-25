@@ -1,0 +1,133 @@
+.ultimate-kenya img {
+    height: 80vh;
+    width: 100%;
+}
+/* .ultimate-kenya {
+    overflow-y: scroll;
+    border: 2px solid purple;
+} */
+.ultimate-kenya {
+    border: 2px solid purple;
+    overflow: auto;
+}
+.ultimate-kenya h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.ultimate-kenya h3 {
+    text-align: center;
+}
+.ultimate-kenya .checked {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-dark);
+    margin-right: 5px;
+    justify-content: center;
+}
+.ultimate-kenya .star-icon {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-tan);
+    margin-right: 5px;
+    justify-content: center;
+}
+.ultimate-kenya .canceled {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FF0000;
+    /* color: #ffdddd; */
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.ultimate-kenya li{
+    display: flex;
+    padding: 0.75rem;
+
+}
+.ultimate-kenya .inclusion-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1rem;
+    margin-bottom: 1rem;
+}
+.ultimate-kenya .card {
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+.ultimate-kenya .places-included {
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.ultimate-kenya .icon-container {
+    text-align: center;
+}
+.ultimate-kenya .about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:1rem;
+    margin-bottom: 1.5rem;
+}
+.ultimate-kenya .icon {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--primary-dark);
+} 
+.ultimate-kenya .example-itinerary {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:1rem;
+    border: 3px solid red;
+    overflow: hidden;
+    max-height: 100vh;
+
+}
+.ultimate-kenya  .example-itinerary .itinerary {
+    overflow: scroll;
+}
+.map {
+    overflow: hidden;
+}
+iframe {
+    margin-top:-50px;
+}
+.ultimate-kenya .card-header h4 {
+    text-align: center;
+    background-color: var(--primary-gold);
+    padding: 0.5rem;
+}
+.ultimate-kenya .transfers {
+   background-color: lightgray;
+   margin-bottom: 1rem;
+}
+.transfers-header{
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 1.75rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.transfers-header:before, .transfers-header:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: 'ß';
+    background-color: var(--primary-gold);
+    margin-right:25px;
+}
+.transfers-header:before {
+    margin-left: -52%;
+    text-align: right;
+}
+.transfers-header:after {
+    margin-left:11px;
+}
+.ultimate-kenya a {
+    /* text-decoration: none; */
+    color: black;
+}

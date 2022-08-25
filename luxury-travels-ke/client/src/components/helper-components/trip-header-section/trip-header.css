@@ -1,0 +1,14 @@
+.trip-header {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.trip-header h4 {
+    text-align: center;
+    background-color: var(--primary-gold);
+    padding: 0.5rem;
+}
+.trip-header h3 {
+    text-align: center;
+    background-color: var(--primary-tan);
+    padding: 1.5rem;
+}

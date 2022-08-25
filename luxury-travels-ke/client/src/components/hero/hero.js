@@ -16,6 +16,7 @@ function Hero() {
                 <h1>First Class Luxury Travel</h1>
                 <h2>Experience the Best of Kenya</h2>
                 {/* search functionality on hero */}
+                {/* <button>Learn More</button> */}
                 <form className="form">
                     <div>
                         <input type="text" placeholder="Search Destinations"/>

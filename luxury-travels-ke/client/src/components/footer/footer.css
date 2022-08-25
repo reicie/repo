@@ -1,0 +1,6 @@
+.footer {
+    height: 50vh;
+    width: 100%;
+    background-color: var(--primary-gold);
+    position:absolute;
+}

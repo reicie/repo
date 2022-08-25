@@ -2,6 +2,9 @@
 :root {
     --primary-dark: #5651e5;
     --primary-light: #709dff;
+    --primary-gold: #D6AD60;
+    --primary-emerald: #122620;
+    --primary-tan: #B68D40;
 }
 
 * {
@@ -11,6 +14,7 @@
 }
 body {
     font-family: "Poppins", sans-serif;
+    /* border: 2rem solid #122620; */
 }
 
 ul {

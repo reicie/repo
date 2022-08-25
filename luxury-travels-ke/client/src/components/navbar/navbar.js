@@ -6,6 +6,9 @@ import {BsPerson} from 'react-icons/bs';
 import {HiOutlineMenu} from 'react-icons/hi';
 import {AiOutlineClose} from'react-icons/ai';
 
+import {Link} from "react-scroll";
+// import {Link} from 'react-router-dom';
+
 import {FaFacebook, FaInstagram, FaTwitter, FaWhatsapp} from 'react-icons/fa';
 
 function Navbar() {
@@ -15,15 +18,19 @@ function Navbar() {
         <div className={nav ? 'navbar navbar-bg': 'navbar'}>
             <div className={nav ? 'logo dark': 'logo'}>
                 {/* company name */}
-                <h2>LUXURY TRAVELS KENYA.</h2>
+                <a href='/'><h2>Splendid Safaris</h2></a>
             </div>
             {/* items of nav bar */}
             <ul className="nav-menu">
-                <li>DESTINATIONS</li>
-                <li>TRAVEL IDEAS</li>
+                <Link to="destinations" smooth={true} duration={500}><li>DESTINATIONS</li></Link>
+                <Link to="travels" smooth={true} duration={500}><li>TRAVEL IDEAS</li></Link>
                 <li>BLOG</li>
                 <li>ABOUT</li>
                 <li>PLAN WITH PEACE OF MIND</li>
+
+                {/* <Link smooth={true} duration={500}><li>BLOG</li></Link>
+                <Link smooth={true} duration={500}><li>ABOUT</li></Link>
+                <Link smooth={true} duration={500}><li>PLAN WITH PEACE OF MIND</li></Link> */}
             </ul>
             {/* icons that are displayed at nav bar at all times */}
             <div className="nav-icons">
@@ -37,11 +44,11 @@ function Navbar() {
             {/* mobile nav menu */}
             <div className={nav ?'mobile-menu active': 'mobile-menu'}>
                 <ul className="mobile-nav">
-                    <li>Destinations</li>
-                    <li>Travel Ideas</li>
-                    <li>Discover</li>
-                    <li>About</li>
-                    <li>Plan with peace of mind</li>
+                    <Link to="destinations" smooth={true} duration={500}><li>Destinations</li></Link>
+                    <Link to="travels" smooth={true} duration={500}><li>Travel Ideas</li></Link>
+                    {/* <Link smooth={true} duration={500}><li>Blog</li></Link>
+                    <Link smooth={true} duration={500}><li>About</li></Link>
+                    <Link smooth={true} duration={500}><li>Plan With Peace of Mind</li></Link> */}
                 </ul>
                 {/* replace icons with buttons on mobile */}
                 <div className="mobile-menu-button">
